@@ -179,11 +179,11 @@ Associations
 ```bash
   docker-compose up --build test
 ```
+Image Result Test
 ![Alt Test](screenshoot/pytest.png)
 
 ## Load Testing
 1. Ensure API is running.
-<br>
 2. Run tests using:
 ```bash
   locust
@@ -192,6 +192,7 @@ Associations
 ```bash
   http://localhost:8089
 ```
+Image Result Locust
 ![Alt Test](screenshoot/locust.png)
 
 ## Additional Notes :
