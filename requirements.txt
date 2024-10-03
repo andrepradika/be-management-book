@@ -1,0 +1,13 @@
+fastapi
+sqlalchemy
+pydantic
+uvicorn
+redis
+mysqlclient
+python-dotenv
+alembic
+pytest
+pymysql
+cryptography
+httpx
+pytest-asyncio

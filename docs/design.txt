@@ -1,0 +1,14 @@
+Design Choices and Performance Tuning Techniques - Notes
+
+- FastAPI: Chosen for its asynchronous support, automatic data validation and swagger built in.
+- MySQL: Used as the relational database for robust data management.
+- SQLAlchemy: Facilitates database interactions and schema migrations with Alembic.
+- Redis: Caches frequently accessed data to reduce load on MySQL and improve response times.
+- Bearer Token Authentication: Ensures lightweight security for API access.
+- Alembic: Manages database migrations seamlessly.
+- pytest: Used for unit testing to ensure code reliability and coverage.
+- Locust: Useful for load testing to evaluate the API's performance under stress.
+
+Performance Tuning Techniques
+- Redis Caching: Minimizes database queries and improves latency by caching responses.
+- Connection Pooling: Reduces overhead in establishing database connections with SQLAlchemy.
